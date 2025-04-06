@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BSA Troop 375</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="overflow-x-hidden bg-green-800">
+        <!-- Flex Container -->
+        <div class="flex flex-col md:flex-row">
+            <!-- Navigation Container -->
+            <nav class="flex-shrink-0 sticky top-0 z-2 md:h-screen w-screen md:w-auto text-white flex flex-col bg-green-800">
+                <!-- Header -->
+                <div class="flex items-center justify-between p-2 border-b-2">
+                        <h1 class="font-bold text-3xl">BSA Troop 375</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="burger" class="mr-2 size-9 hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="close" class="mr-2 size-9 hidden hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                </div>
+                <!-- Navigation -->
+                <ul id="menu" class="hidden md:flex flex flex-col pt-4 pb-4 gap-5 flex-grow-1 overflow-y-auto">
+                    <li class="border-l-10 border-green-800 pl-4"><a href="index.html" class="">Home</a></li>
+                    <li class="border-l-10 border-yellow-500 pl-4"><a href="join.html" class="">Join the Troop</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="leaders.html" class="">Troop Leaders</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="camp.html" class="">Summer Camp</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="adventure.html" class="">High Adventure</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="eagle.html" class="">Eagle Scouts</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="calendar.html" class="">Calendar</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="photos.html" class="">Photos</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="forms.html" class="">Forms and Documents</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="contact.html" class="">Contact Us</a></li>
+                </ul>
+                <span class="text-center mb-2 hidden md:block">&COPY; Cooper Redfern</span>
+            </nav>
+            <!-- Main Container -->
+            <main class="flex-grow-1">
+                <div class="bg-white">
+                    <!-- Top Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[15vw] rotate-180 bg-cover"></div>
+                    </section>
+                    <!-- Intro Section -->
+                    <section>
+                        <div class="mb-10">
+                            <h1 class="text-6xl font-bold ml-4 mb-2">Join the Troop</h1>
+                            <p class="text-lg ml-4 mr-4">Are you ready for new adventures, skills, and lasting friendships? Join our Boy Scout Troop today and embark on a journey full of growth and excitement!</p>
+                        </div>
+                    </section>
+                    <!-- Cards -->
+                    <section>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4 mb-10">
+                            <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                <h2 class="font-bold text-xl mb-4">Eligibility</h2>
+                                <p class="text-gray-600 indent-4">To join our Boy Scout Troop, you must be a boy aged 11–17 and live close enough to attend meetings and activities regularly. Scouting thrives on participation, offering leadership development, outdoor adventures, and community service. We uphold the Scout Oath and Law, fostering respect, responsibility, and teamwork. If you’re ready for adventure, personal growth, and lasting friendships, we invite you to visit a meeting and learn more!</p>
+                            </div>
+                            <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                <h2 class="font-bold text-xl mb-4">Steps to Join</h2>
+                                <ol class="list-decimal ml-8 flex flex-col gap-2 mb-4 text-gray-600">
+                                    <li>Complete the online application form.</li>
+                                    <li>Attend an orientation meeting.</li>
+                                    <li>Pass a background check.</li>
+                                    <li>Pay the required fees.</li>
+                                </ol>
+                                <p class="text-gray-600 indent-4">Once you have completed all the steps, you will be officially a member of our Boy Scout Troop.</p>
+                            </div>
+                            <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                <h2 class="font-bold text-xl mb-4">Troop Fees and Costs</h2>
+                                <p class="text-gray-600 indent-4 mb-4">The following fees and costs are required for joining our Boy Scout Troop:</p>
+                                <ul class="list-disc ml-8 flex flex-col gap-2 mb-4 text-gray-600">
+                                    <li>Application Fee: <span class="font-bold text-green-700">$10</span></li>
+                                    <li>Orientation Meeting Fee: <span class="font-bold text-green-700">$20</span></li>
+                                    <li>Uniform Fee: <span class="font-bold text-green-700">$50</span></li>
+                                    <li>Annual Membership Fee: <span class="font-bold text-green-700">$100</span></li>
+                                </ul>
+                                <p class="text-gray-600 indent-4">These fees are non-refundable and are used to cover the costs of running the troop.</p>
+                            </div>
+                            <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                <h2 class="font-bold text-xl mb-4">Meeting Information</h2>
+                                <p class="text-gray-600 indent-4 mb-4">Our troop meets every Sunday at 6 PM, where we gather for a variety of exciting and engaging troop activities. These meetings are a great opportunity for Scouts to develop new skills, work on merit badges, and participate in team-building exercises. Whether it’s planning upcoming camping trips, working on service projects, or learning about outdoor survival techniques, every meeting is packed with opportunities for growth and fun. We encourage all Scouts to come prepared for an evening of hands-on learning and adventure!</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Accordion -->
+                    <section>
+                        <h1 class="text-3xl font-bold ml-4">Frequently Asked Questions</h1>
+                        <div class="w-full max-w-200 mx-auto p-4">
+                            <div class="border-b">
+                                <button class="w-full text-left py-3 px-4 bg-gray-100 focus:outline-none hover:bg-gray-200">
+                                    <span>How do I join the troop?</span>
+                                </button>
+                                <div class="max-h-0 overflow-hidden" id="item1">
+                                    <p class="py-3 px-4">To join the troop, you will need to attend a meeting and fill out an application form. You can also contact our troop leaders to get more information about the joining process and eligibility.</p>
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <button class="w-full text-left py-3 px-4 bg-gray-100 focus:outline-none hover:bg-gray-200">
+                                    <span>What is the age requirement for joining the troop?</span>
+                                </button>
+                                <div class="max-h-0 overflow-hidden" id="item2">
+                                    <p class="py-3 px-4">Scouts generally start at the age of 11 and can continue until they reach 18. If you are within this age range, you’re welcome to join!</p>
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <button class="w-full text-left py-3 px-4 bg-gray-100 focus:outline-none hover:bg-gray-200">
+                                    <span>How often do we meet?</span>
+                                </button>
+                                <div class="max-h-0 overflow-hidden" id="item3">
+                                    <p class="py-3 px-4">Our troop typically meets once a week for regular scouting activities, and additional special events or outings may occur on weekends. Check our Troop Calendar for upcoming meeting schedules.</p>
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <button class="w-full text-left py-3 px-4 bg-gray-100 focus:outline-none hover:bg-gray-200">
+                                    <span>What should I bring to a troop meeting?</span>
+                                </button>
+                                <div class="max-h-0 overflow-hidden" id="item4">
+                                    <p class="py-3 px-4">You should bring your Scout handbook, a notebook, pen, and any required uniforms or gear for specific activities (such as camping or hiking).</p>
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <button class="w-full text-left py-3 px-4 bg-gray-100 focus:outline-none hover:bg-gray-200">
+                                    <span>Do I need to buy a uniform?</span>
+                                </button>
+                                <div class="max-h-0 overflow-hidden" id="item5">
+                                    <p class="py-3 px-4">Yes, a Scout uniform is required. It includes a shirt, pants or shorts, neckerchief, and other insignia. You can find more details on the uniform requirements in our “Joining Instructions” page.</p>
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <button class="w-full text-left py-3 px-4 bg-gray-100 focus:outline-none hover:bg-gray-200">
+                                    <span>How can I get involved if I’m a parent or volunteer?</span>
+                                </button>
+                                <div class="max-h-0 overflow-hidden" id="item6">
+                                    <p class="py-3 px-4">We always welcome parents to get involved! You can help with meetings, events, outings, or even serve as a merit badge counselor. Contact the troop leader to learn more about volunteer opportunities.</p>
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <button class="w-full text-left py-3 px-4 bg-gray-100 focus:outline-none hover:bg-gray-200">
+                                    <span>Are there any annual fees or dues?</span>
+                                </button>
+                                <div class="max-h-0 overflow-hidden" id="item7">
+                                    <p class="py-3 px-4">Yes, there may be annual dues to cover the cost of materials, badges, activities, and administrative fees. Please refer to our Troop Dues Document for more detailed information.</p>
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <button class="w-full text-left py-3 px-4 bg-gray-100 focus:outline-none hover:bg-gray-200">
+                                    <span>What activities does the troop do?</span>
+                                </button>
+                                <div class="max-h-0 overflow-hidden" id="item8">
+                                    <p class="py-3 px-4">We participate in a wide variety of activities including camping trips, hiking, community service, merit badge workshops, and troop meetings. Specific events and activities will be announced through our Troop Calendar. See our Troop activities page for more information.</p>
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <button class="w-full text-left py-3 px-4 bg-gray-100 focus:outline-none hover:bg-gray-200">
+                                    <span>How can I track my progress in the troop?</span>
+                                </button>
+                                <div class="max-h-0 overflow-hidden" id="item9">
+                                    <p class="py-3 px-4">Scouts can track their progress in their Scout Handbook and on Scoutbook. Leaders also provide regular updates and guidance during troop meetings.</p>
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <button class="w-full text-left py-3 px-4 bg-gray-100 focus:outline-none hover:bg-gray-200">
+                                    <span>How do I contact the troop leaders?</span>
+                                </button>
+                                <div class="max-h-0 overflow-hidden" id="item10">
+                                    <p class="py-3 px-4">You can find the contact information for our troop leaders on the Troop Leadership page. Alternatively, you can use the Contact Us page to send a message directly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- bottom Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[15vw] bg-cover mt-10"></div>
+                    </section>
+                    <!-- Footer Links -->
+                    <section>
+                        <div class="bg-green-800 text-white p-2">
+                            <ul class="flex justify-around">
+                                <li><a href="https://tecumsehcouncil.org/">Council Website</a></li>
+                                <li><a href="https://www.scouting.org/">BSA Website</a></li>
+                                <li><a href="sitemap.html">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

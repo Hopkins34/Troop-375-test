@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BSA Troop 375</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="overflow-x-hidden bg-green-800">
+        <!-- Flex Container -->
+        <div class="flex flex-col md:flex-row">
+            <!-- Navigation Container -->
+            <nav class="flex-shrink-0">
+                <div class="w-screen md:w-auto md:h-screen text-white flex flex-col sticky top-0 z-2 bg-green-800">
+                    <!-- Header -->
+                    <div class="flex items-center justify-between p-2 border-b-2">
+                        <h1 class="font-bold text-3xl">BSA Troop 375</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="burger" class="mr-2 size-9 hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="close" class="mr-2 size-9 hidden hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <!-- Navigation -->
+                    <ul id="menu" class="hidden md:flex flex flex-col pt-4 pb-4 gap-5 flex-grow-1 overflow-y-auto">
+                        <li class="border-l-10 border-green-800 pl-4"><a href="index.html" class="">Home</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="join.html" class="">Join the Troop</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="leaders.html" class="">Troop Leaders</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="camp.html" class="">Summer Camp</a></li>
+                        <li class="border-l-10 border-yellow-500 pl-4"><a href="adventure.html" class="">High Adventure</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="eagle.html" class="">Eagle Scouts</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="calendar.html" class="">Calendar</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="photos.html" class="">Photos</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="forms.html" class="">Forms and Documents</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="contact.html" class="">Contact Us</a></li>
+                    </ul>
+                    <span class="text-center mb-2 hidden md:block">&COPY; Cooper Redfern</span>
+                </div>
+            </nav>
+            <!-- Main Container -->
+            <main class="flex-grow-1">
+                <div class="bg-white">
+                    <!-- Top Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[20vw] rotate-180 bg-cover"></div>
+                    </section>
+                    <!-- Intro Section -->
+                    <section>
+                        <div class="mb-10">
+                            <h1 class="text-6xl font-bold ml-4 mb-2">High-Adventure</h1>
+                            <p class="text-lg ml-4 mr-4">Take on thrilling outdoor challenges like rock climbing, whitewater rafting, zip-lining, and COPE courses. Push your limits, test your skills, and experience the excitement of high-adventure activities that will leave you with unforgettable memories!</p>
+                        </div>
+                    </section>
+                    <!-- Cards -->
+                    <section>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 p-6">
+                            <!-- Philmont Scout Ranch -->
+                            <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                <h2 class="font-bold text-xl mb-2 text-red-600">Philmont Scout Ranch</h2>
+                                <p class="text-gray-600 indent-4">Philmont Scout Ranch, located in the majestic Sangre de Cristo Mountains of New Mexico, offers one of the most incredible backpacking experiences in the world. Scouts will hike rugged trails through beautiful mountain terrain, earning a sense of accomplishment while developing outdoor skills and leadership. With treks ranging from 12 to 21 days, participants will gain unforgettable memories, learn self-sufficiency, and explore the stunning natural beauty of the region.</p>
+                            </div>
+
+                            <!-- Northern Tier -->
+                            <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                <h2 class="font-bold text-xl mb-2 text-blue-600">Northern Tier</h2>
+                                <p class="text-gray-600 indent-4">The Northern Tier High Adventure program offers an unparalleled wilderness canoeing experience. Set in the pristine forests and lakes of Minnesota, Canada, and the Boundary Waters, this adventure focuses on paddling through remote waters, camping in the wild, and developing teamwork and leadership skills. Whether exploring the beautiful Quetico Provincial Park or venturing into the wild, participants will discover the joys of wilderness canoeing while testing their limits and embracing the serenity of the Northwoods.</p>
+                            </div>
+
+                            <!-- Florida Sea Base -->
+                            <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                <h2 class="font-bold text-xl mb-2 text-teal-600">Florida Sea Base</h2>
+                                <p class="text-gray-600 indent-4">Located in the tropical paradise of the Florida Keys, the Florida Sea Base offers exciting opportunities for Scouts to explore the ocean. With programs like sailing, scuba diving, and deep-sea fishing, participants will experience the beauty of coral reefs, marine wildlife, and the thrill of living on the water. This adventure allows Scouts to develop skills in oceanography and marine conservation while engaging in unforgettable water-based activities and building lifelong friendships with fellow adventurers.</p>
+                            </div>
+
+                            <!-- Summit Bechtel Reserve -->
+                            <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                <h2 class="font-bold text-xl mb-2 text-green-600">Summit Bechtel Reserve</h2>
+                                <p class="text-gray-600 indent-4">The Summit Bechtel Reserve in West Virginia is the ultimate destination for outdoor adventure. With a vast range of activities including rock climbing, zip-lining, BMX biking, whitewater rafting, and hiking, the Summit provides a world-class experience for Scouts seeking high-adrenaline challenges. This adventure is designed to push your physical and mental limits while fostering teamwork and leadership. Whether you're navigating the rapids or conquering a rock face, the Summit Bechtel Reserve offers something for every adventurer looking to experience the thrill of the outdoors.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- bottom Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[20vw] bg-cover mt-10"></div>
+                    </section>
+                    <!-- Footer Links -->
+                    <section>
+                        <div class="bg-green-800 text-white p-2">
+                            <ul class="flex justify-around">
+                                <li><a href="https://tecumsehcouncil.org/">Council Website</a></li>
+                                <li><a href="https://www.scouting.org/">BSA Website</a></li>
+                                <li><a href="sitemap.html">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

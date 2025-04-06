@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BSA Troop 375</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="overflow-x-hidden bg-green-800">
+        <!-- Flex Container -->
+        <div class="flex flex-col md:flex-row">
+            <!-- Navigation Container -->
+            <nav class="flex-shrink-0">
+                <div class="w-screen md:w-auto md:h-screen text-white flex flex-col sticky top-0 z-2 bg-green-800">
+                    <!-- Header -->
+                    <div class="flex items-center justify-between p-2 border-b-2">
+                        <h1 class="font-bold text-3xl">BSA Troop 375</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="burger" class="mr-2 size-9 hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="close" class="mr-2 size-9 hidden hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <!-- Navigation -->
+                    <ul id="menu" class="hidden md:flex flex flex-col pt-4 pb-4 gap-5 flex-grow-1 overflow-y-auto">
+                        <li class="border-l-10 border-green-800 pl-4"><a href="index.html" class="">Home</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="join.html" class="">Join the Troop</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="leaders.html" class="">Troop Leaders</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="camp.html" class="">Summer Camp</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="adventure.html" class="">High Adventure</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="eagle.html" class="">Eagle Scouts</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="calendar.html" class="">Calendar</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="photos.html" class="">Photos</a></li>
+                        <li class="border-l-10 border-yellow-500 pl-4"><a href="forms.html" class="">Forms and Documents</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="contact.html" class="">Contact Us</a></li>
+                    </ul>
+                    <span class="text-center mb-2 hidden md:block">&COPY; Cooper Redfern</span>
+                </div>
+            </nav>
+            <!-- Main Container -->
+            <main class="flex-grow-1">
+                <div class="bg-white">
+                    <!-- Top Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[20vw] rotate-180 bg-cover"></div>
+                    </section>
+                    <!-- Intro Section -->
+                    <section>
+                        <div class="mb-10">
+                            <h1 class="text-5xl sm:text-6xl font-bold ml-4 mb-2">Forms and Documents</h1>
+                            <p class="text-lg ml-4 mr-4">The Forms and Documents section provides essential paperwork for Scouts and families, including permission slips, medical forms, and event registration details. These documents help ensure that Scouts are prepared for activities and comply with BSA policies. All forms are easily accessible for download to streamline event planning and participation.</p>
+                        </div>
+                    </section>
+                    <!-- Cards -->
+                    <section>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 p-4">
+                          <div class="bg-light-gray p-4 rounded-lg shadow-md">
+                            <h3 class="text-xl font-semibold mb-2">For Scouts</h3>
+                            <ul class="text-gray-500 ml-4 text-lg">
+                              <li><a href="assets/documents/guide.pdf" class="hover:text-blue-500">Scout and Parent Guidebook 2024</a></li>
+                              <li><a href="assets/documents/packing.pdf" class="hover:text-blue-500">Camp Packing List and Camping Record Log</a></li>
+                              <li><a href="assets/documents/camp.docx" class="hover:text-blue-500">Camp Planning</a></li>
+                              <li><a href="assets/documents/backpacking.pdf" class="hover:text-blue-500">Troop Backpacking List</a></li>
+                              <li><a href="assets/documents/uniform.pdf" class="hover:text-blue-500">Uniform Guidelines</a></li>
+                              <li><a href="assets/documents/leadership.pdf" class="hover:text-blue-500">Leadership Positions</a></li>
+                            </ul>
+                          </div>
+                          <div class="bg-light-gray p-4 rounded-lg shadow-md">
+                            <h3 class="text-xl font-semibold mb-2">For Parents</h3>
+                            <ul class="text-gray-500 ml-4 text-lg">
+                              <li><a href="assets/documents/youth-membership.pdf" class="hover:text-blue-500">BSA Youth Membership Application</a></li>
+                              <li><a href="assets/documents/activity.pdf" class="hover:text-blue-500">Activity Consent Form</a></li>
+                              <li><a href="assets/documents/medical.pdf" class="hover:text-blue-500">Medical Forms</a></li>
+                            </ul>
+                          </div>
+                          <div class="bg-light-gray p-4 rounded-lg shadow-md">
+                            <h3 class="text-xl font-semibold mb-2">Reimbursement and Billing</h3>
+                            <ul class="text-gray-500 ml-4 text-lg">
+                              <li><a href="assets/documents/reimbursement.pdf" class="hover:text-blue-500">Reimbursement Form</a></li>
+                              <li><a href="assets/documents/policy.docx" class="hover:text-blue-500">Troop Financial Policy</a></li>
+                              <li><a href="assets/documents/billing.pdf" class="hover:text-blue-500">Activity Billing Form</a></li>
+                            </ul>
+                          </div>
+                          <div class="bg-light-gray p-4 rounded-lg shadow-md">
+                            <h3 class="text-xl font-semibold mb-2">Adult Leadership</h3>
+                            <ul class="text-gray-500 ml-4 text-lg">
+                              <li><a href="assets/documents/guide.pdf" class="hover:text-blue-500">Fast Start Guide</a></li>
+                              <li><a href="assets/documents/resourcesurvey.pdf" class="hover:text-blue-500">Adult Resource Survey</a></li>
+                              <li><a href="assets/documents/counselor.pdf" class="hover:text-blue-500">Merit Badge Counselor Application</a></li>
+                              <li><a href="assets/documents/report.pdf" class="hover:text-blue-500">Child Abuse Reporting Requirements</a></li>
+                              <li><a href="assets/documents/plc.pptx" class="hover:text-blue-500">PLC Training Meeting, PDF</a></li>
+                              <li><a href="assets/documents/powerpoint.pdf" class="hover:text-blue-500">PLC Training Meeting, Slide Show</a></li>
+                              <li><a href="assets/documents/adult-membership.pdf" class="hover:text-blue-500">BSA Adult Membership Application</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </section>
+                    <!-- bottom Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[20vw] bg-cover mt-10"></div>
+                    </section>
+                    <!-- Footer Links -->
+                    <section>
+                        <div class="bg-green-800 text-white p-2">
+                            <ul class="flex justify-around">
+                                <li><a href="https://tecumsehcouncil.org/">Council Website</a></li>
+                                <li><a href="https://www.scouting.org/">BSA Website</a></li>
+                                <li><a href="sitemap.html">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

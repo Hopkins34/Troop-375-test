@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BSA Troop 375</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="overflow-x-hidden bg-green-800">
+        <!-- Flex Container -->
+        <div class="flex flex-col md:flex-row">
+            <!-- Navigation Container -->
+            <nav class="flex-shrink-0">
+                <div class="w-screen md:w-auto md:h-screen text-white flex flex-col sticky top-0 z-2 bg-green-800">
+                    <!-- Header -->
+                    <div class="flex items-center justify-between p-2 border-b-2">
+                        <h1 class="font-bold text-3xl">BSA Troop 375</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="burger" class="mr-2 size-9 hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="close" class="mr-2 size-9 hidden hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <!-- Navigation -->
+                    <ul id="menu" class="hidden md:flex flex flex-col pt-4 pb-4 gap-5 flex-grow-1 overflow-y-auto">
+                        <li class="border-l-10 border-green-800 pl-4"><a href="index.html" class="">Home</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="join.html" class="">Join the Troop</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="leaders.html" class="">Troop Leaders</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="camp.html" class="">Summer Camp</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="adventure.html" class="">High Adventure</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="eagle.html" class="">Eagle Scouts</a></li>
+                        <li class="border-l-10 border-yellow-500 pl-4"><a href="calendar.html" class="">Calendar</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="photos.html" class="">Photos</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="forms.html" class="">Forms and Documents</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="contact.html" class="">Contact Us</a></li>
+                    </ul>
+                    <span class="text-center mb-2 hidden md:block">&COPY; Cooper Redfern</span>
+                </div>
+            </nav>
+            <!-- Main Container -->
+            <main class="flex-grow-1">
+                <div class="bg-white">
+                    <!-- Top Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[20vw] rotate-180 bg-cover"></div>
+                    </section>
+                    <!-- Inro section -->
+                    <section>
+                        <div class="mb-10">
+                            <div class="flex ml-2 mb-2 justify-between flex-wrap gap-x-8">
+                                <h1 class="text-6xl font-bold">Calendar</h1>
+                                <a href="https://scoutbook.scouting.org" target="_blank" class="mr-4">
+                                <button class="mt-4 bg-red-700 text-white px-4 py-2 rounded-md hover:cursor-pointer hover:shadow-xl hover:scale-110 transition-all">
+                                    Scoutbook
+                                </button>
+                                </a>
+                            </div>
+                            <p class="text-lg ml-4 mr-4">The 2025 Troop calendar is packed with exciting events and activities for Scouts to participate in throughout the year. For the most up-to-date information, including any last-minute changes, please refer to Scoutbook. If you plan to attend any events, remember to RSVP through Scoutbook to help with planning and coordination. By using Scoutbook, you’ll ensure you’re always in the loop and ready for every troop activity!</p>
+                        </div>
+                    </section>
+                    <!-- Calendar -->
+                    <section>
+                        <div class="overflow-x-auto p-4">
+                          <table class="max-w-200 w-full mx-auto table-auto border-collapse text-sm md:text-md">
+                            <thead>
+                              <tr class="bg-gray-200">
+                                <th class="px-4 py-2 border-b text-left">Date</th>
+                                <th class="px-4 py-2 border-b text-left">Event</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <!-- January -->
+                              <tr class="bg-gray-200">
+                                <td colspan="2" class="px-4 py-2 font-semibold text-center">JANUARY</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Wed 1st</td>
+                                <td class="px-4 py-2">1-4 Bird Hike at Morris Reserve</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Sun 5th</td>
+                                <td class="px-4 py-2">6:30 Meeting - Cancelled due to weather</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Tues 7th</td>
+                                <td class="px-4 py-2">7:00 Committee Meeting - All Are Welcome</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Thurs 9th</td>
+                                <td class="px-4 py-2">5-8 Donato's Fundraiser</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Sun 12th</td>
+                                <td class="px-4 py-2">5:30 & 6:30 Klondike planning meeting & Troop meeting</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Fri 17th</td>
+                                <td class="px-4 py-2">Klondike Camp Birch</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Sat 18th</td>
+                                <td class="px-4 py-2">Klondike Camp Birch</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Sun 26th</td>
+                                <td class="px-4 py-2">6:30 High Adventure Talk @ Heritage Church</td>
+                              </tr>
+
+                              <!-- February -->
+                              <tr class="bg-gray-200">
+                                <td colspan="2" class="px-4 py-2 font-semibold text-center">FEBRUARY</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Sat 1st</td>
+                                <td class="px-4 py-2">8-1 Merit Badge Trail Drive - New Location</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">3p</td>
+                                <td class="px-4 py-2">Little Miami River Clean-Up</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Sun 2nd</td>
+                                <td class="px-4 py-2">10:15 Scout Sunday @ Heritage Church</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">6:30</td>
+                                <td class="px-4 py-2">Troop Elections</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Tues 4th</td>
+                                <td class="px-4 py-2">7:00 Committee Mtg @ BRC</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Thurs 6th</td>
+                                <td class="px-4 py-2">6:30 Helping AOL Scouts at BUMC</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Sun 9th</td>
+                                <td class="px-4 py-2">5:00 PLC Meeting</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Tues 11th</td>
+                                <td class="px-4 py-2">11a-9p Elsa's Restaurant Fundraiser</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Sat 15th</td>
+                                <td class="px-4 py-2">8-1 Merit Badge Trail Drive</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Sun 16th</td>
+                                <td class="px-4 py-2">6:30 Troop Meeting</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Mon 17th</td>
+                                <td class="px-4 py-2">8:00 Long Hike @ Germantown</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Wed 19th</td>
+                                <td class="px-4 py-2">6:30 Scout Speech Night - BRC</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Sat 22nd</td>
+                                <td class="px-4 py-2">8-12 Lion's Club Pancake Breakfast @ BCI</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Sun 23rd</td>
+                                <td class="px-4 py-2">6:30 Troop Mtg - Citizenship in Community</td>
+                              </tr>
+                              <!-- March -->
+                                <tr class="bg-gray-200">
+                                    <td colspan="2" class="px-4 py-2 font-semibold text-center">MARCH</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sat 1st</td>
+                                    <td class="px-4 py-2">8-1 Merit Badge Trail Drive - New Location</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 2nd</td>
+                                    <td class="px-4 py-2">1:00p Wreath Removal @ David's Cemetery</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">6:30</td>
+                                    <td class="px-4 py-2">Troop Mtg & Backpacking Shakedown</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sat 8th</td>
+                                    <td class="px-4 py-2">SCOUTING FOR FOOD - FLYER DROP</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 9th</td>
+                                    <td class="px-4 py-2">Pack 3 AOL Crossover</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 9th</td>
+                                    <td class="px-4 py-2">6:30 Troop Mtg & Merit Badge</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Tues 11th</td>
+                                    <td class="px-4 py-2">7:00 Committee Mtg @ BRC</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Wed 12th</td>
+                                    <td class="px-4 py-2">6:00p-8:00p Chick-fil-a Restaurant Fundraiser</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Fri 14th</td>
+                                    <td class="px-4 py-2">5:45 St. Francis AOL Crossover @ St. Francis</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sat 15th</td>
+                                    <td class="px-4 py-2">Skills Camp</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 16th</td>
+                                    <td class="px-4 py-2">Skills Camp</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sat 22nd</td>
+                                    <td class="px-4 py-2">Spring Break Backpacking - Red River</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 23rd</td>
+                                    <td class="px-4 py-2">SBB - Red River Gorge</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Mon 24th</td>
+                                    <td class="px-4 py-2">SBB - Red River Gorge</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 30th</td>
+                                    <td class="px-4 py-2">6:30 Troop Meeting</td>
+                                </tr>
+
+                                <!-- April -->
+                                <tr class="bg-gray-200">
+                                    <td colspan="2" class="px-4 py-2 font-semibold text-center">APRIL</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Tues 1st</td>
+                                    <td class="px-4 py-2">7:00 Committee Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sat 5th</td>
+                                    <td class="px-4 py-2">8:00am Up To 20 Mile Hike</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 6th</td>
+                                  <td class="px-4 py-2">5:30 Cooking Campout Planning Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">6:30</td>
+                                  <td class="px-4 py-2">Troop Mtg - Cavebox Prep/Uniform Check</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Fri 11th</td>
+                                  <td class="px-4 py-2">Cooking Campout</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sat 12th</td>
+                                  <td class="px-4 py-2">Cooking Campout</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 13th</td>
+                                  <td class="px-4 py-2">Cooking Campout</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sat 26th</td>
+                                    <td class="px-4 py-2">Sugar Maple Festival</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 27th</td>
+                                    <td class="px-4 py-2">Sugar Maple Festival</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">5:00p</td>
+                                    <td class="px-4 py-2">Rock Climbing Campout Planning Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">6:00p</td>
+                                    <td class="px-4 py-2">Spring Court of Honor - Heritage Church</td>
+                                </tr>
+
+                                <!-- May -->
+                                <tr class="bg-gray-200">
+                                    <td colspan="2" class="px-4 py-2 font-semibold text-center">MAY</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Fri 2nd</td>
+                                    <td class="px-4 py-2">6:00p Rock Climbing Campout - Red River Gorge</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sat 3rd</td>
+                                    <td class="px-4 py-2">Rock Climbing Campout - Red River Gorge</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 4th</td>
+                                    <td class="px-4 py-2">Rock Climbing Campout - Red River Gorge</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Tues 6th</td>
+                                    <td class="px-4 py-2">7:00 Committee Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 11th</td>
+                                    <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 18th</td>
+                                    <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 25th</td>
+                                    <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+
+                                <!-- June -->
+                                <tr class="bg-gray-200">
+                                    <td colspan="2" class="px-4 py-2 font-semibold text-center">JUNE</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 1st</td>
+                                    <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Tues 3rd</td>
+                                    <td class="px-4 py-2">7:00 Committee Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 8th</td>
+                                    <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 15th</td>
+                                    <td class="px-4 py-2">High Adventure Camp - Summit Bechtle Reserve</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Mon 16th</td>
+                                    <td class="px-4 py-2">High Adventure Camp - Summit Bechtle Reserve</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Tue 17th</td>
+                                    <td class="px-4 py-2">High Adventure Camp - Summit Bechtle Reserve</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Wed 18th</td>
+                                    <td class="px-4 py-2">High Adventure Camp - Summit Bechtle Reserve</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Thurs 19th</td>
+                                    <td class="px-4 py-2">High Adventure Camp - Summit Bechtle Reserve</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Fri 20th</td>
+                                    <td class="px-4 py-2">High Adventure Camp - Summit Bechtle Reserve</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sat 21st</td>
+                                    <td class="px-4 py-2">High Adventure Camp - Summit Bechtle Reserve</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 22nd</td>
+                                    <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 29th</td>
+                                    <td class="px-4 py-2">5:30p Summer Camp Planning Mtg & Troop Mtg</td>
+                                </tr>
+                                <!-- July -->
+                                <tr class="bg-gray-200">
+                                    <td colspan="2" class="px-4 py-2 font-semibold text-center">JULY</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 6th</td>
+                                    <td class="px-4 py-2">Summer Camp @ Camp Friedlander</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Mon 7th</td>
+                                    <td class="px-4 py-2">Summer Camp @ Camp Friedlander</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Tues 8th</td>
+                                    <td class="px-4 py-2">Summer Camp @ Camp Friedlander</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Wed 9th</td>
+                                    <td class="px-4 py-2">Summer Camp @ Camp Friedlander</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Thurs 10th</td>
+                                    <td class="px-4 py-2">Summer Camp @ Camp Friedlander</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Fri 11th</td>
+                                    <td class="px-4 py-2">Summer Camp @ Camp Friedlander</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sat 12th</td>
+                                    <td class="px-4 py-2">Summer Camp @ Camp Friedlander</td>
+                                </tr>
+
+                                <!-- August -->
+                                <tr class="bg-gray-200">
+                                    <td colspan="2" class="px-4 py-2 font-semibold text-center">AUGUST</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 3rd</td>
+                                    <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 10th</td>
+                                    <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 17th</td>
+                                    <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 24th</td>
+                                    <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                    <td class="px-4 py-2">Sun 31st</td>
+                                    <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-200">
+                                  <td colspan="2" class="px-4 py-2 font-semibold text-center">SEPTEMBER</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Tue 2nd</td>
+                                  <td class="px-4 py-2">Committee Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 7th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 14th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 21st</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 28th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+
+                                <!-- October -->
+                                <tr class="bg-gray-200">
+                                  <td colspan="2" class="px-4 py-2 font-semibold text-center">OCTOBER</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 5th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Tue 7th</td>
+                                  <td class="px-4 py-2">Committee Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 12th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 19th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 26th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <!-- November -->
+                                <tr class="bg-gray-200">
+                                  <td colspan="2" class="px-4 py-2 font-semibold text-center">NOVEMBER</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 2nd</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Tue 4th</td>
+                                  <td class="px-4 py-2">Committee Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 9th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 16th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 23rd</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 30th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+
+                                <!-- December -->
+                                <tr class="bg-gray-200">
+                                  <td colspan="2" class="px-4 py-2 font-semibold text-center">DECEMBER</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Tue 2nd</td>
+                                  <td class="px-4 py-2">Committee Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 7th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 14th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 21st</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                                <tr class="bg-white border-b hover:bg-gray-100">
+                                  <td class="px-4 py-2">Sun 28th</td>
+                                  <td class="px-4 py-2">Troop Mtg</td>
+                                </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                    </section>
+                    <!-- bottom Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[20vw] bg-cover mt-10"></div>
+                    </section>
+                    <!-- Footer Links -->
+                    <section>
+                        <div class="bg-green-800 text-white p-2">
+                            <ul class="flex justify-around">
+                                <li><a href="https://tecumsehcouncil.org/">Council Website</a></li>
+                                <li><a href="https://www.scouting.org/">BSA Website</a></li>
+                                <li><a href="sitemap.html">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

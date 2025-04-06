@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BSA Troop 375</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="overflow-x-hidden bg-green-800">
+        <!-- Flex Container -->
+        <div class="flex flex-col md:flex-row">
+            <!-- Navigation Container -->
+            <nav class="flex-shrink-0 sticky top-0 z-2 md:h-screen w-screen md:w-auto text-white flex flex-col bg-green-800">
+                <!-- Header -->
+                <div class="flex items-center justify-between p-2 border-b-2">
+                        <h1 class="font-bold text-3xl">BSA Troop 375</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="burger" class="mr-2 size-9 hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="close" class="mr-2 size-9 hidden hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                </div>
+                <!-- Navigation -->
+                <ul id="menu" class="hidden md:flex flex flex-col pt-4 pb-4 gap-5 flex-grow-1 overflow-y-auto">
+                    <li class="border-l-10 border-yellow-500 pl-4"><a href="index.html" class="">Home</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="join.html" class="">Join the Troop</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="leaders.html" class="">Troop Leaders</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="camp.html" class="">Summer Camp</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="adventure.html" class="">High Adventure</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="eagle.html" class="">Eagle Scouts</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="calendar.html" class="">Calendar</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="photos.html" class="">Photos</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="forms.html" class="">Forms and Documents</a></li>
+                    <li class="border-l-10 border-green-800 pl-4"><a href="contact.html" class="">Contact Us</a></li>
+                </ul>
+                <span class="text-center mb-2 hidden md:block">&COPY; Cooper Redfern</span>
+            </nav>
+            <!-- Main Container -->
+            <main class="flex-grow-1">
+                <div class="bg-white">
+                    <!-- Advertisement -->
+                    <!-- <section>
+                        <div class="h-auto flex flex-wrap justify-around bg-green-800 p-2">
+                            <img class="w-30" src="assets/images/roaddog.png" alt="">
+                            <img class="w-30" src="assets/images/Dots.svg" alt="">
+                            <img class="w-30" src="assets/images/mcantoshs.jpg" alt="">
+                        </div>
+                    </section> -->
+                    <!-- Top Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[20vw] rotate-180 bg-cover"></div>
+                    </section>
+                    <!-- Hero Section -->
+                    <section>
+                        <div class="flex flex-col items-center justify-center w-full p-4 mb-10">
+                            <h1 class="font-bold text-5xl m-4 text-center">Adventure Awaits</h1>
+                            <p class="m-4 text-3xl text-center">Building the leaders of tomorrow, starting today!</p>
+                            <a href="join.html" class="m-4">
+                              <button class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:cursor-pointer hover:shadow-xl hover:scale-110 transition-all">
+                                Join Now
+                              </button>
+                            </a>
+                        </div>
+                    </section>
+                    <!-- News Cards -->
+                    <section>
+                        <div class="mb-10">
+                            <h1 class="text-3xl font-bold ml-4">News</h1>
+                            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 p-4">
+                                <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                    <h2 class="font-bold text-xl mb-4">Red River Gorge Backpacking Trip</h2>
+                                    <img class="w-2/3 float-right lg:float-none lg:w-full p-2" src="assets/images/RedRiver.jpg" alt="">
+                                    <p class="text-gray-600 indent-4">Our troop is eagerly preparing for an exciting backpacking trip to Red River Gorge, a destination known for its stunning rock formations and rugged trails. In the weeks leading up to the adventure, our scouts have been training through practice hikes, learning to pack efficiently, and refining their navigation skills. Gear checks ensure everyone has essential equipment, from lightweight tents to proper hiking boots, while meal planning focuses on high-energy, easy-to-carry food. Safety is a priority, with scouts reviewing first aid, Leave No Trace principles, and emergency protocols. As the trip approaches, excitement is building, and our scouts are ready to take on the challenges and rewards of this unforgettable outdoor adventure.</p>
+                                </div>
+                                <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                    <h2 class="font-bold text-xl mb-4">Troop Elections</h2>
+                                    <img class="w-2/3 float-right lg:float-none lg:w-full p-2" src="assets/images/Leaders.jpg" alt="">
+                                    <p class="text-gray-600 indent-4">Our troop recently held elections, and we are excited to welcome our new Senior Patrol Leader, Jonathan, who is already making big plans for his six-month term. The election process was a great opportunity for scouts to step up as leaders, share their ideas, and take on new responsibilities. After a competitive race and thoughtful speeches, Jonathan was chosen to lead, and he has ambitious goals for improving the troop. He plans to introduce new training programs to strengthen scout skills, organize more challenging outdoor adventures, and enhance communication between patrols to ensure everyone stays engaged. Additionally, he is focused on making meetings more interactive and fun while reinforcing leadership development within the troop. With his enthusiasm and dedication, Jonathan is set to bring fresh energy to the troop, and we are all looking forward to seeing the positive changes he will make in the months ahead.</p>
+                                </div>
+                                <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                    <h2 class="font-bold text-xl mb-4">New Website Launch</h2>
+                                    <img class="w-1/3 float-right lg:float-none lg:w-full p-2" src="assets/images/tailwindcss.png" alt="">
+                                    <p class="text-gray-600 indent-4">Our Troop is excited to announce the launch of our brand-new website! This updated platform is designed to keep Scouts, parents, and leaders informed with the latest news, events, and resources. With an easy-to-navigate layout, you’ll find important announcements, the troop calendar, merit badge opportunities, and helpful scouting materials all in one place. The new website will serve as a central hub for communication, ensuring that everyone stays connected and up to date. Be sure to check it out and explore all the great features—we can’t wait for you to experience it!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Map -->
+                    <section>
+                        <div class="mb-10">
+                            <h1 class="text-3xl font-bold ml-4">Our Location</h1>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6145.221884556439!2d-84.06645507283322!3d39.63596307364945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884090500059340f%3A0x7acbdace2cad8927!2sBellbrook-Sugarcreek%20Community%20Support%20Center!5e0!3m2!1sen!2sus!4v1740744597173!5m2!1sen!2sus" width="600" class="h-100 w-full p-4" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </section>
+                    <!-- Mission -->
+                    <section>
+                        <div class="mb-10">
+                            <h1 class="text-3xl font-bold ml-4">Mission</h1>
+                            <p class="text-lg p-4">Our mission is to foster the growth and development of young men and women by providing opportunities for leadership, service, and personal growth through the values and principles of Scouting. We are committed to creating an inclusive and supportive environment where Scouts can develop character, responsibility, and a sense of community while living the Scout Oath and Law. Through outdoor adventures, merit-based achievements, and community service, our troop aims to prepare each Scout to become a responsible, capable, and compassionate leader, ready to contribute to society and make a positive impact on the world around them.</p>
+                        </div>
+                    </section>
+                    <!-- History -->
+                    <section>
+                        <div class="mb-10">
+                            <h1 class="text-3xl font-bold ml-4">History</h1>
+                            <p class="text-lg p-4">Troop 375 has a rich history of serving the youth in our community, dating back to its founding in [insert year]. Over the years, our troop has remained committed to providing a safe and nurturing environment where Scouts can learn the values of leadership, teamwork, and community service. From its early days, Troop 375 has fostered a strong tradition of adventure, skill development, and service to others. The troop has celebrated numerous milestones, including countless Eagle Scout achievements, community service projects, and participation in local and national events. Throughout its history, Troop 375 has remained dedicated to its mission of preparing young men and women to lead with character and integrity. Today, the troop continues to build on this foundation, empowering Scouts to pursue their personal goals, while making a lasting impact on the community.</p>
+                        </div>
+                    </section>
+                    <!-- bottom Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[20vw] bg-cover mt-10"></div>
+                    </section>
+                    <!-- Footer Links -->
+                    <section>
+                        <div class="bg-green-800 text-white p-2">
+                            <ul class="flex justify-around">
+                                <li><a href="https://tecumsehcouncil.org/">Council Website</a></li>
+                                <li><a href="https://www.scouting.org/">BSA Website</a></li>
+                                <li><a href="sitemap.html">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

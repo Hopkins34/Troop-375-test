@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BSA Troop 375</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="overflow-x-hidden bg-green-800">
+        <!-- Flex Container -->
+        <div class="flex flex-col md:flex-row">
+            <!-- Navigation Container -->
+            <nav class="flex-shrink-0">
+                <div class="w-screen md:w-auto md:h-screen text-white flex flex-col sticky top-0 z-2 bg-green-800">
+                    <!-- Header -->
+                    <div class="flex items-center justify-between p-2 border-b-2">
+                        <h1 class="font-bold text-3xl">BSA Troop 375</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="burger" class="mr-2 size-9 hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="close" class="mr-2 size-9 hidden hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <!-- Navigation -->
+                    <ul id="menu" class="hidden md:flex flex flex-col pt-4 pb-4 gap-5 flex-grow-1 overflow-y-auto">
+                        <li class="border-l-10 border-green-800 pl-4"><a href="index.html" class="">Home</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="join.html" class="">Join the Troop</a></li>
+                        <li class="border-l-10 border-yellow-500 pl-4"><a href="leaders.html" class="">Troop Leaders</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="camp.html" class="">Summer Camp</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="adventure.html" class="">High Adventure</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="eagle.html" class="">Eagle Scouts</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="calendar.html" class="">Calendar</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="photos.html" class="">Photos</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="forms.html" class="">Forms and Documents</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="contact.html" class="">Contact Us</a></li>
+                    </ul>
+                    <span class="text-center mb-2 hidden md:block">&COPY; Cooper Redfern</span>
+                </div>
+            </nav>
+            <!-- Main Container -->
+            <main class="flex-grow-1">
+                <div class="bg-white">
+                    <!-- Top Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[15vw] rotate-180 bg-cover"></div>
+                    </section>
+                    <!-- Intro Section -->
+                    <section>
+                        <div class="mb-10">
+                            <h1 class="text-6xl font-bold ml-4 mb-2">Leadership</h1>
+                            <p class="text-lg ml-4 mr-4">Troop leadership is key to our success, with Scouts taking on roles like Senior Patrol Leader and Patrol Leaders to guide our activities. These leaders help create an environment where Scouts grow, learn new skills, and build friendships, all while living by the Scout Oath and Law.</p>
+                        </div>
+                    </section>
+                    <!-- Cards -->
+                    <section>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
+                            <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                <h2 class="font-bold text-xl mb-4 text-blue-600">Election Cycle</h2>
+                                <p class="text-gray-600 indent-4">Our troop holds elections every six months to ensure that leadership roles are regularly refreshed and Scouts have the opportunity to step up. These elections allow Scouts to choose their leaders, promoting a sense of ownership and responsibility in the troop. By rotating leadership positions, we encourage Scouts to develop new skills, collaborate with peers, and prepare for future challenges.</p>
+                            </div>
+                            <div class="bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
+                                <h2 class="font-bold text-xl mb-4 text-red-600">How to become a leader</h2>
+                                <p class="text-gray-600 indent-4">To become a leader in our troop, Scouts must first choose a leadership position that interests them. Once a position is selected, they should inform the Scoutmaster, Mr. Panstingle, to express their interest. This step is essential in preparing for upcoming troop elections and taking on responsibilities that help shape the success of our troop.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Table -->
+                    <section>
+                        <div class="overflow-x-auto p-4">
+                          <table class="max-w-200 mx-auto table-auto border-collapse text-sm md:text-md">
+                            <thead>
+                              <tr class="bg-gray-200">
+                                <th class="px-4 py-2 border-b text-left">Position</th>
+                                <th class="px-4 py-2 border-b text-left">Description</th>
+                                <th class="px-4 py-2 border-b text-left">Current Leader</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Senior Patrol Leader</td>
+                                <td class="px-4 py-2">The top leader of the troop. Oversees all activities, leads meetings, and serves as a liaison between the troop and adult leaders.</td>
+                                <td class="px-4 py-2">John Doe</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Assistant Senior Patrol Leader</td>
+                                <td class="px-4 py-2">Assists the Senior Patrol Leader and steps in when the Senior Patrol Leader is unavailable. Often leads smaller groups within the troop.</td>
+                                <td class="px-4 py-2">Jane Smith</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Patrol Leader</td>
+                                <td class="px-4 py-2">Leads a patrol, organizes patrol meetings and activities, and ensures the patrol follows the Scout Oath and Law.</td>
+                                <td class="px-4 py-2">Mark Johnson (Patrol 1)</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Assistant Patrol Leader</td>
+                                <td class="px-4 py-2">Supports the Patrol Leader and helps with organizing patrol activities. Takes on the Patrol Leader’s role when they are unavailable.</td>
+                                <td class="px-4 py-2">Emily Davis (Patrol 1)</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Quartermaster</td>
+                                <td class="px-4 py-2">Manages the troop’s equipment and supplies. Ensures everything is in working order and properly stored.</td>
+                                <td class="px-4 py-2">Luke Brown</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Scribe</td>
+                                <td class="px-4 py-2">Keeps track of attendance at meetings and events, records meeting minutes, and manages important troop documents.</td>
+                                <td class="px-4 py-2">Sophia Green</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Treasurer</td>
+                                <td class="px-4 py-2">Manages the troop’s funds, keeps track of fundraising, and ensures financial records are accurate.</td>
+                                <td class="px-4 py-2">Ethan White</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Historian</td>
+                                <td class="px-4 py-2">Documents troop events and activities, takes pictures, and maintains a scrapbook or digital archive of the troop’s history.</td>
+                                <td class="px-4 py-2">Ava Black</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Chaplains Aide</td>
+                                <td class="px-4 py-2">Helps with the troop's religious observances, leads moments of reflection or prayer, and supports the spiritual well-being of the troop.</td>
+                                <td class="px-4 py-2">Oliver Clark</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Den Chief</td>
+                                <td class="px-4 py-2">Works with a Cub Scout Den Leader to assist younger Scouts, leads activities, and helps prepare them for joining the Boy Scouts.</td>
+                                <td class="px-4 py-2">Mason Lee</td>
+                              </tr>
+                              <tr class="bg-white border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Instructor</td>
+                                <td class="px-4 py-2">Teaches new skills to Scouts, particularly in areas like first aid, knots, and other Scout-related subjects.</td>
+                                <td class="px-4 py-2">Lily Scott</td>
+                              </tr>
+                              <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-4 py-2">Bugler</td>
+                                <td class="px-4 py-2">Plays the bugle during troop ceremonies, flag ceremonies, and other special events.</td>
+                                <td class="px-4 py-2">James Harris</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                    </section>
+                    <!-- bottom Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[15vw] bg-cover mt-10"></div>
+                    </section>
+                    <!-- Footer Links -->
+                    <section>
+                        <div class="bg-green-800 text-white p-2">
+                            <ul class="flex justify-around">
+                                <li><a href="https://tecumsehcouncil.org/">Council Website</a></li>
+                                <li><a href="https://www.scouting.org/">BSA Website</a></li>
+                                <li><a href="sitemap.html">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

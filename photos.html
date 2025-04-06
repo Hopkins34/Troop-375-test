@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BSA Troop 375</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="overflow-x-hidden bg-green-800">
+        <!-- Flex Container -->
+        <div class="flex flex-col md:flex-row">
+            <!-- Navigation Container -->
+            <nav class="flex-shrink-0">
+                <div class="w-screen md:w-auto md:h-screen text-white flex flex-col sticky top-0 z-2 bg-green-800">
+                    <!-- Header -->
+                    <div class="flex items-center justify-between p-2 border-b-2">
+                        <h1 class="font-bold text-3xl">BSA Troop 375</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="burger" class="mr-2 size-9 hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="close" class="mr-2 size-9 hidden hover:scale-125 transition-transform duration-300 md:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <!-- Navigation -->
+                    <ul id="menu" class="hidden md:flex flex flex-col pt-4 pb-4 gap-5 flex-grow-1 overflow-y-auto">
+                        <li class="border-l-10 border-green-800 pl-4"><a href="index.html" class="">Home</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="join.html" class="">Join the Troop</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="leaders.html" class="">Troop Leaders</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="camp.html" class="">Summer Camp</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="adventure.html" class="">High Adventure</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="eagle.html" class="">Eagle Scouts</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="calendar.html" class="">Calendar</a></li>
+                        <li class="border-l-10 border-yellow-500 pl-4"><a href="photos.html" class="">Photos</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="forms.html" class="">Forms and Documents</a></li>
+                        <li class="border-l-10 border-green-800 pl-4"><a href="contact.html" class="">Contact Us</a></li>
+                    </ul>
+                    <span class="text-center mb-2 hidden md:block">&COPY; Cooper Redfern</span>
+                </div>
+            </nav>
+            <!-- Main Container -->
+            <main class="flex-grow-1">
+                <div class="bg-white">
+                    <!-- Top Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[20vw] rotate-180 bg-cover"></div>
+                    </section>
+                    <!-- Intro Section -->
+                    <section>
+                        <div class="mb-10">
+                            <div class="flex ml-2 mb-2 justify-between  flex-wrap gap-x-8">
+                                <h1 class="text-6xl font-bold">Photos</h1>
+                                <a href="https://www.facebook.com/groups/2333632723429122" target="_blank" class="mr-4">
+                                <button class="mt-4 bg-blue-700 text-white px-4 py-2 rounded-md hover:cursor-pointer hover:shadow-xl hover:scale-110 transition-all">
+                                    Facebook
+                                </button>
+                                </a>
+                            </div>
+                            <p class="text-lg ml-4 mr-4">Explore our gallery of photos showcasing our troop's activities, events, and memorable moments. From camping trips to service projects, we capture the essence of scouting in action. More pictures can be found on our facebook page.</p>
+                        </div>
+                    </section>
+                    <!-- Images -->
+                    <section>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+                            <div class="col-span-1 md:col-span-2 bg-gray-200">
+                                <img src="assets/images/christmas.jpg" alt="Image 1" class="w-full h-64 object-cover rounded-lg">
+                            </div>
+                            <div class="col-span-1 bg-gray-200">
+                                <img src="assets/images/river.jpg" alt="Image 2" class="w-full h-64 object-cover rounded-lg">
+                            </div>
+                            <div class="col-span-1 bg-gray-200">
+                                <img src="assets/images/scuba.jpg" alt="Image 3" class="w-full h-64 object-cover rounded-lg">
+                            </div>
+                            <div class="col-span-1 md:col-span-2 bg-gray-200">
+                                <img src="assets/images/scouts.jpg" alt="Image 4" class="w-full h-64 object-cover rounded-lg">
+                            </div>
+                            <div class="col-span-1 md:col-span-2 bg-gray-200">
+                                <img src="assets/images/hiking.jpg" alt="Image 5" class="w-full h-64 object-cover rounded-lg">
+                            </div>
+                            <div class="col-span-1 bg-gray-200">
+                                <img src="assets/images/court.jpg" alt="Image 6" class="w-full h-64 object-cover rounded-lg">
+                            </div>
+                            <div class="col-span-1 bg-gray-200">
+                                <img src="assets/images/shower.jpg" alt="Image 7" class="w-full h-64 object-cover rounded-lg">
+                            </div>
+                            <div class="col-span-1 md:col-span-2 bg-gray-200">
+                                <img src="assets/images/climbing.jpg" alt="Image 8" class="w-full h-64 object-cover rounded-lg">
+                            </div>
+                        </div>
+                    </section>
+                    <!-- bottom Image -->
+                    <section>
+                        <div class="bg-[url('assets/images/peaks.svg')] w-full h-[20vw] bg-cover mt-10"></div>
+                    </section>
+                    <!-- Footer Links -->
+                    <section>
+                        <div class="bg-green-800 text-white p-2">
+                            <ul class="flex justify-around">
+                                <li><a href="https://tecumsehcouncil.org/">Council Website</a></li>
+                                <li><a href="https://www.scouting.org/">BSA Website</a></li>
+                                <li><a href="sitemap.html">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
